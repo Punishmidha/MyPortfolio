@@ -1,0 +1,39 @@
+.offcanvas{
+    background-color:  rgb(182, 186, 224);
+}
+.offcanvas-title{
+    color: rgb(32, 16, 49);
+    text-align: center;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    text-decoration: underline;
+    
+}
+.sidebarLists{
+    margin: 25px 0px;
+}
+.slist{
+    padding: 15px 0px;
+    font-size: 20px;
+    font-family:cursive;
+    color: rgb(56, 30, 84);
+    list-style: none;
+    
+}
+.contactLink{
+    font-size: 20px;
+    /* font-family:cursive !important; */
+    color: rgb(56, 30, 84);
+    text-decoration: none;
+}
+.contactLink:hover{
+    text-decoration:underline;
+    color: black;
+}
+.m{
+    background-color: rgb(75, 47, 132);
+    color: white;
+}
+.reach{
+    text-align: center !important;
+}

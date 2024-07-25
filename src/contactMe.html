@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    ">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="./contactMe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <img src="../AllLogos/logo.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top my-pic">
+      <h2 class="m-4">Punish Midha</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav m-4 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Resume.pdf" target="_blank">Download CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactMe.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container mt-5">
+    <h4 class="text-center" style="font-family: cursive;">
+      I'm available via email, phone, or social media. Reach out to me through the method that's most convenient for you.
+    </h4>
+    <h2 style="color: rgb(126, 84, 168); font-family: cursive; margin-top: 0.5cm;">Here are my contact details:</h2>
+    <br>
+
+
+    <button class="btn btn-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+    aria-controls="offcanvasWithBothOptions">Reach Out to Me</button>
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+    aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title" id="offcanvasWithBothOptionsLabel" style="font-family: cursive;"> <strong>Lets get in
+           Touch <i class="fa-regular fa-face-smile-wink"></i> </strong></h2>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div>
+      <ul class="sidebarLists">
+        <li class="slist"><i class="fa-solid fa-location-dot"></i><strong> Address:</strong><a class="contactLink"
+            href="https://maps.app.goo.gl/TvCV8mZzNSCDCEsC8" target="_blank"> Sector-25,Gurgaon</a> </li>
+        <li class="slist"><i class="fa-solid fa-phone"></i><strong> Phone-no:</strong><a class="contactLink"
+            href="tel:981-336-0953" target="_blank"> +91:9813360953</a> </li>
+        <li class="slist"><i class="fa-solid fa-envelope"></i><strong> Gmail:</strong> <a class="contactLink"
+            href="mailto:punishmidha4@gmail.com" target="_blank"> punishmidha4@gmail.com</a></li>
+        <li class="slist"><i class="fa-brands fa-github"></i><strong> Github:</strong> <a class="contactLink"
+            href="https://github.com/Punishmidha?tab=repositories" target="_blank"> punishmidha</a></li>
+        <li class="slist"><i class="fa-brands fa-linkedin"></i><strong> LinkedIn:</strong> <a class="contactLink"
+            href="https://www.linkedin.com/in/punish-midha-381777245/" target="_blank"> PunishMidha</a></li>
+      </ul>
+    </div>
+
+  </div>
+  </div>
+
+  
+
+  <!-- Form -->
+  <!-- <form class="row g-3 m-5">
+    <div class="col-md-4 pe-5">
+      <label for="validationDefault01" class="form-label">First name</label>
+      <input type="text" class="form-control m" id="validationDefault01" value="" required>
+    </div>
+    <div class="col-md-4 pe-5">
+      <label for="validationDefault02" class="form-label">Last name</label>
+      <input type="text" class="form-control m" id="validationDefault02" value="" required>
+    </div>
+    <div class="col-md-4">
+      <label for="validationDefaultUsername" class="form-label">Username</label>
+      <div class="input-group">
+        <span class="input-group-text m" id="inputGroupPrepend2">@</span>
+        <input type="text" class="form-control m" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+          required>
+      </div>
+    </div>
+    <div class="col-md-3 m-lg-5 pt-lg-4">
+      <label for="validationDefault03" class="form-label">City</label>
+      <input type="text" class="form-control m" id="validationDefault03" required>
+    </div>
+    <div class="col-md-3 m-lg-5 pt-lg-4">
+      <label for="validationDefault04" class="form-label">State</label>
+      <select class="form-select m" id="validationDefault04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>Delhi</option>
+        <option>Gurgaon</option>
+        <option>Tamil Nadu</option>
+        <option>Haryana</option>
+        <option>Uttar Pardesh</option>
+        <option>None Of Them</option>
+      </select>
+    </div>
+    <div class="col-md-3 pt-lg-5 m-lg-4 ">
+      <label for="validationDefault05" class="form-label">Zip</label>
+      <input type="text" class="form-control m" id="validationDefault05" required>
+    </div>
+    <div class="col-10 ">
+      <div class="form-check ">
+        <input class="form-check-input " type="checkbox" value="" id="invalidCheck2" required>
+        <label class="form-check-label " for="invalidCheck2">
+          Agree to terms and conditions
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form> -->
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+  <script src="../index.js"></script>
+</body>
+
+</html>

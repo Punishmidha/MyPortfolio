@@ -1,0 +1,27 @@
+.project-card{
+    transition: transform .5s;
+    width: 9cm !important;
+    background-color: rgb(233, 230, 237) !important;
+    border-radius: 30px !important;
+
+}
+.project-card:hover{
+    border: 3px solid #07c;
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 70px 1px #5c6bc2 ;
+
+}
+
+.project-btn{
+    text-align: center;
+}
+
+.card-img-top{
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    height: 6cm;
+
+}
+.card-title{
+    color: rgb(45, 30, 65)mportant;
+}
