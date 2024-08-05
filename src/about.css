@@ -7,6 +7,7 @@ div.scroll1,.scroll2{
     overflow-y: auto;
     text-align: justify;
 }
+
 div.scroll3{
     padding: 40px;
     background-color: rgb(22, 13, 46);
